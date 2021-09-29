@@ -11,7 +11,7 @@ public class PassFail {
 
             if (score >= 60)
                 System.out.println("Student passed.");
-            else
+            else if (score != -1)
                 System.out.println("Student failed.");
 
         } while (score != -1);
